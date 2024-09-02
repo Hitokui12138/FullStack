@@ -1,0 +1,22 @@
+<!--pages/home/home.wxml-->
+<view>
+  <!-- ThemeA -->
+  <image class="top-theme" src="{{themeA.entrance_img}}"></image>
+
+  <!-- BannerB -->
+  <swiper class="swiper" 
+    indicator-dots 
+    indicator-active-color="#157658"
+    autoplay
+    circular>
+    <block wx:for="{{bannerB.items}}">
+      <swiper-item class="" item-id="">
+        <!-- 这个地方被称为插槽,循环项是item不是this -->
+        <image class="swiper" src="{{item.img}}"></image>
+      </swiper-item>  
+    </block>
+  </swiper>
+
+  <!-- Category -->
+  <s-category-grid grid="{{grid}}"></s-category-grid>
+</view>

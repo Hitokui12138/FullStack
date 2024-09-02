@@ -1,0 +1,43 @@
+/* components/category-grid/index.wxss */
+.container{
+    height: 320rpx;
+    width: 100%;
+    /* flex布局 完美居中 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inner-container{
+    width: 730rpx;
+    height: 300rpx;
+    border: 1px dashed #dcebe6;
+}
+
+.grid-item{
+    /* 让grid组件自动计算 */
+    /* height: 200rpx; */
+    /* 设置宽是为了增大触摸区域,可以随意设置,是动态计算的 */
+    width: 200rpx; 
+
+    display: flex;
+    /* 上下关系 */
+    flex-direction: column;
+    /* 水平方向居中 */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img{
+    height: 60rpx;
+    width: 60rpx;
+}
+
+.text{
+    margin-top: 6rpx;
+    font-size: 24rpx;
+    color: #333333;
+}

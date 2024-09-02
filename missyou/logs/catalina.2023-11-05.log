@@ -1,0 +1,330 @@
+05-Nov-2023 18:32:54.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+05-Nov-2023 18:32:54.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+05-Nov-2023 18:32:54.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+05-Nov-2023 18:32:54.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Nov-2023 18:32:54.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+05-Nov-2023 18:32:54.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+05-Nov-2023 18:32:54.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@11/11.0.20.1/libexec/openjdk.jdk/Contents/Home
+05-Nov-2023 18:32:54.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+0
+05-Nov-2023 18:32:54.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+05-Nov-2023 18:32:54.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 18:32:54.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 18:32:54.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2023 18:32:54.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2023 18:32:54.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2023 18:32:54.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2023 18:32:54.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2023 18:32:54.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 18:32:54.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 18:32:54.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/peihanggu/GithubLocal/FullStack/missyou/temp
+05-Nov-2023 18:32:54.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/peihanggu/GithubLocal/FullStack/missyou/conf/logging.properties
+05-Nov-2023 18:32:54.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2023 18:32:54.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=64476:/Applications/IntelliJ IDEA CE.app/Contents/bin
+05-Nov-2023 18:32:54.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2023 18:32:54.998 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/peihanggu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Nov-2023 18:32:55.170 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 18:32:55.181 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [315] milliseconds
+05-Nov-2023 18:32:55.204 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2023 18:32:55.204 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+05-Nov-2023 18:32:55.207 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/Tomcat.xml]
+05-Nov-2023 18:32:55.877 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2023 18:32:55.925 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/Tomcat.xml] has finished in [718] ms
+05-Nov-2023 18:32:55.927 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 18:32:55.932 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [750] milliseconds
+05-Nov-2023 18:32:58.408 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 18:32:58.412 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2023 18:32:58.423 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 18:32:58.438 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 18:33:21.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+05-Nov-2023 18:33:21.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+05-Nov-2023 18:33:21.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+05-Nov-2023 18:33:21.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Nov-2023 18:33:21.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+05-Nov-2023 18:33:21.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+05-Nov-2023 18:33:21.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@11/11.0.20.1/libexec/openjdk.jdk/Contents/Home
+05-Nov-2023 18:33:21.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+0
+05-Nov-2023 18:33:21.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+05-Nov-2023 18:33:21.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 18:33:21.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 18:33:21.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2023 18:33:21.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2023 18:33:21.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2023 18:33:21.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2023 18:33:21.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2023 18:33:21.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 18:33:21.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 18:33:21.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/peihanggu/GithubLocal/FullStack/missyou/temp
+05-Nov-2023 18:33:21.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/peihanggu/GithubLocal/FullStack/missyou/conf/logging.properties
+05-Nov-2023 18:33:21.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2023 18:33:21.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=64593:/Applications/IntelliJ IDEA CE.app/Contents/bin
+05-Nov-2023 18:33:21.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2023 18:33:21.913 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/peihanggu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Nov-2023 18:33:22.071 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 18:33:22.082 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [281] milliseconds
+05-Nov-2023 18:33:22.107 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2023 18:33:22.107 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+05-Nov-2023 18:33:22.110 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/Tomcat.xml]
+05-Nov-2023 18:33:22.764 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2023 18:33:22.809 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/Tomcat.xml] has finished in [699] ms
+05-Nov-2023 18:33:22.810 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 18:33:22.815 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [732] milliseconds
+05-Nov-2023 18:33:39.974 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 18:33:39.978 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2023 18:33:39.989 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 18:33:40.002 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:23:16.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+05-Nov-2023 19:23:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+05-Nov-2023 19:23:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+05-Nov-2023 19:23:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Nov-2023 19:23:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+05-Nov-2023 19:23:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+05-Nov-2023 19:23:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@11/11.0.20.1/libexec/openjdk.jdk/Contents/Home
+05-Nov-2023 19:23:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+0
+05-Nov-2023 19:23:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+05-Nov-2023 19:23:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 19:23:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 19:23:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2023 19:23:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2023 19:23:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2023 19:23:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2023 19:23:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2023 19:23:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 19:23:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 19:23:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/peihanggu/GithubLocal/FullStack/missyou/temp
+05-Nov-2023 19:23:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/peihanggu/GithubLocal/FullStack/missyou/conf/logging.properties
+05-Nov-2023 19:23:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2023 19:23:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=60777:/Applications/IntelliJ IDEA CE.app/Contents/bin
+05-Nov-2023 19:23:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2023 19:23:16.629 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/peihanggu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Nov-2023 19:23:16.806 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:23:16.818 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [305] milliseconds
+05-Nov-2023 19:23:16.849 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2023 19:23:16.850 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+05-Nov-2023 19:23:16.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/Tomcat.xml]
+05-Nov-2023 19:23:17.541 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2023 19:23:17.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/Tomcat.xml] has finished in [733] ms
+05-Nov-2023 19:23:17.589 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:23:17.594 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [775] milliseconds
+05-Nov-2023 19:24:03.923 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:24:03.925 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2023 19:24:03.939 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:24:03.951 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:24:05.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+05-Nov-2023 19:24:05.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+05-Nov-2023 19:24:05.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+05-Nov-2023 19:24:05.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Nov-2023 19:24:05.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+05-Nov-2023 19:24:05.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+05-Nov-2023 19:24:05.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@11/11.0.20.1/libexec/openjdk.jdk/Contents/Home
+05-Nov-2023 19:24:05.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+0
+05-Nov-2023 19:24:05.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+05-Nov-2023 19:24:05.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 19:24:05.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 19:24:05.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2023 19:24:05.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2023 19:24:05.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2023 19:24:05.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2023 19:24:05.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2023 19:24:05.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 19:24:05.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 19:24:05.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/peihanggu/GithubLocal/FullStack/missyou/temp
+05-Nov-2023 19:24:05.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/peihanggu/GithubLocal/FullStack/missyou/conf/logging.properties
+05-Nov-2023 19:24:05.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2023 19:24:05.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=60981:/Applications/IntelliJ IDEA CE.app/Contents/bin
+05-Nov-2023 19:24:05.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2023 19:24:05.622 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/peihanggu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Nov-2023 19:24:05.777 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:24:05.790 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [271] milliseconds
+05-Nov-2023 19:24:05.815 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2023 19:24:05.815 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+05-Nov-2023 19:24:05.819 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/Tomcat.xml]
+05-Nov-2023 19:24:06.478 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2023 19:24:06.526 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/Tomcat.xml] has finished in [707] ms
+05-Nov-2023 19:24:06.527 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:24:06.532 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [742] milliseconds
+05-Nov-2023 19:25:20.150 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:25:20.153 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2023 19:25:20.169 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:25:20.178 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:25:21.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+05-Nov-2023 19:25:21.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+05-Nov-2023 19:25:21.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+05-Nov-2023 19:25:21.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Nov-2023 19:25:21.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+05-Nov-2023 19:25:21.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+05-Nov-2023 19:25:21.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@11/11.0.20.1/libexec/openjdk.jdk/Contents/Home
+05-Nov-2023 19:25:21.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+0
+05-Nov-2023 19:25:21.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+05-Nov-2023 19:25:21.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 19:25:21.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 19:25:21.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2023 19:25:21.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2023 19:25:21.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2023 19:25:21.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2023 19:25:21.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2023 19:25:21.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 19:25:21.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 19:25:21.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/peihanggu/GithubLocal/FullStack/missyou/temp
+05-Nov-2023 19:25:21.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/peihanggu/GithubLocal/FullStack/missyou/conf/logging.properties
+05-Nov-2023 19:25:21.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2023 19:25:21.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=61292:/Applications/IntelliJ IDEA CE.app/Contents/bin
+05-Nov-2023 19:25:21.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2023 19:25:21.052 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/peihanggu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Nov-2023 19:25:21.211 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:25:21.228 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [278] milliseconds
+05-Nov-2023 19:25:21.261 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2023 19:25:21.261 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+05-Nov-2023 19:25:21.266 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/missyou.xml]
+05-Nov-2023 19:25:21.960 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2023 19:25:22.006 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/missyou.xml] has finished in [740] ms
+05-Nov-2023 19:25:22.008 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:25:22.012 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [784] milliseconds
+05-Nov-2023 19:27:31.511 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:27:31.515 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2023 19:27:31.531 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:27:31.540 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:27:33.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+05-Nov-2023 19:27:33.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+05-Nov-2023 19:27:33.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+05-Nov-2023 19:27:33.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Nov-2023 19:27:33.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+05-Nov-2023 19:27:33.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+05-Nov-2023 19:27:33.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@11/11.0.20.1/libexec/openjdk.jdk/Contents/Home
+05-Nov-2023 19:27:33.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+0
+05-Nov-2023 19:27:33.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+05-Nov-2023 19:27:33.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 19:27:33.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 19:27:33.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2023 19:27:33.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2023 19:27:33.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2023 19:27:33.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2023 19:27:33.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2023 19:27:33.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:61831,suspend=y,server=n
+05-Nov-2023 19:27:33.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 19:27:33.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 19:27:33.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/peihanggu/GithubLocal/FullStack/missyou/temp
+05-Nov-2023 19:27:33.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/peihanggu/GithubLocal/FullStack/missyou/conf/logging.properties
+05-Nov-2023 19:27:33.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2023 19:27:33.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/peihanggu/Library/Caches/JetBrains/IdeaIC2023.1/captureAgent/debugger-agent.jar
+05-Nov-2023 19:27:33.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2023 19:27:33.335 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/peihanggu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Nov-2023 19:27:33.464 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:27:33.479 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [271] milliseconds
+05-Nov-2023 19:27:33.507 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2023 19:27:33.507 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+05-Nov-2023 19:27:33.510 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/missyou.xml]
+05-Nov-2023 19:27:34.169 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2023 19:27:34.219 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/missyou.xml] has finished in [709] ms
+05-Nov-2023 19:27:34.221 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:27:34.227 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [747] milliseconds
+05-Nov-2023 19:29:51.962 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:29:51.966 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2023 19:29:51.976 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:29:51.979 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:30:37.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+05-Nov-2023 19:30:37.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+05-Nov-2023 19:30:37.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+05-Nov-2023 19:30:37.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Nov-2023 19:30:37.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+05-Nov-2023 19:30:37.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+05-Nov-2023 19:30:37.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@11/11.0.20.1/libexec/openjdk.jdk/Contents/Home
+05-Nov-2023 19:30:37.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+0
+05-Nov-2023 19:30:37.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+05-Nov-2023 19:30:37.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 19:30:37.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 19:30:37.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2023 19:30:37.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2023 19:30:37.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2023 19:30:37.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2023 19:30:37.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2023 19:30:37.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 19:30:37.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 19:30:37.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/peihanggu/GithubLocal/FullStack/missyou/temp
+05-Nov-2023 19:30:37.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/peihanggu/GithubLocal/FullStack/missyou/conf/logging.properties
+05-Nov-2023 19:30:37.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2023 19:30:37.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=62663:/Applications/IntelliJ IDEA CE.app/Contents/bin
+05-Nov-2023 19:30:37.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2023 19:30:37.439 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/peihanggu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Nov-2023 19:30:37.620 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:30:37.637 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [322] milliseconds
+05-Nov-2023 19:30:37.671 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2023 19:30:37.671 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+05-Nov-2023 19:30:37.675 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/missyou.xml]
+05-Nov-2023 19:30:38.374 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2023 19:30:38.421 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/missyou.xml] has finished in [745] ms
+05-Nov-2023 19:30:38.422 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:30:38.427 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [789] milliseconds
+05-Nov-2023 19:33:35.283 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:33:35.286 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2023 19:33:35.300 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:33:35.310 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:33:36.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+05-Nov-2023 19:33:36.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+05-Nov-2023 19:33:36.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+05-Nov-2023 19:33:36.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Nov-2023 19:33:36.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+05-Nov-2023 19:33:36.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+05-Nov-2023 19:33:36.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@11/11.0.20.1/libexec/openjdk.jdk/Contents/Home
+05-Nov-2023 19:33:36.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+0
+05-Nov-2023 19:33:36.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+05-Nov-2023 19:33:36.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 19:33:36.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 19:33:36.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2023 19:33:36.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2023 19:33:36.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2023 19:33:36.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2023 19:33:36.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2023 19:33:36.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 19:33:36.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 19:33:36.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/peihanggu/GithubLocal/FullStack/missyou/temp
+05-Nov-2023 19:33:36.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/peihanggu/GithubLocal/FullStack/missyou/conf/logging.properties
+05-Nov-2023 19:33:36.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2023 19:33:36.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=63515:/Applications/IntelliJ IDEA CE.app/Contents/bin
+05-Nov-2023 19:33:36.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2023 19:33:36.513 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/peihanggu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Nov-2023 19:33:36.689 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:33:36.701 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [293] milliseconds
+05-Nov-2023 19:33:36.730 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2023 19:33:36.731 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+05-Nov-2023 19:33:36.734 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/missyou.xml]
+05-Nov-2023 19:33:37.423 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2023 19:33:37.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/missyou.xml] has finished in [735] ms
+05-Nov-2023 19:33:37.470 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:33:37.475 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [774] milliseconds
+05-Nov-2023 19:34:54.817 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:34:54.820 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2023 19:34:54.829 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:34:54.832 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:44:41.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+05-Nov-2023 19:44:41.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+05-Nov-2023 19:44:41.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+05-Nov-2023 19:44:41.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Nov-2023 19:44:41.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.0
+05-Nov-2023 19:44:41.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+05-Nov-2023 19:44:41.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@11/11.0.20.1/libexec/openjdk.jdk/Contents/Home
+05-Nov-2023 19:44:41.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+0
+05-Nov-2023 19:44:41.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+05-Nov-2023 19:44:41.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 19:44:41.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 19:44:41.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2023 19:44:41.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2023 19:44:41.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2023 19:44:41.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2023 19:44:41.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2023 19:44:41.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat@9/9.0.80/libexec
+05-Nov-2023 19:44:41.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/peihanggu/GithubLocal/FullStack/missyou
+05-Nov-2023 19:44:41.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/peihanggu/GithubLocal/FullStack/missyou/temp
+05-Nov-2023 19:44:41.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/peihanggu/GithubLocal/FullStack/missyou/conf/logging.properties
+05-Nov-2023 19:44:41.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2023 19:44:41.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=50456:/Applications/IntelliJ IDEA CE.app/Contents/bin
+05-Nov-2023 19:44:41.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2023 19:44:41.624 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/peihanggu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Nov-2023 19:44:41.786 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:44:41.798 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [288] milliseconds
+05-Nov-2023 19:44:41.821 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2023 19:44:41.821 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+05-Nov-2023 19:44:41.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/missyou.xml]
+05-Nov-2023 19:44:42.485 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2023 19:44:42.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/peihanggu/GithubLocal/FullStack/missyou/conf/Catalina/localhost/missyou.xml] has finished in [709] ms
+05-Nov-2023 19:44:42.535 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2023 19:44:42.542 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [743] milliseconds
