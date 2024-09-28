@@ -4,27 +4,33 @@
  * @开源项目 $ http://talelin.com
  * @免费专栏 $ http://course.talelin.com
  * @我的课程 $ http://imooc.com/t/4294850
- * @创建时间 2020-02-17 19:47
+ * @创建时间 2019-08-19 15:17
  */
 package com.lin.missyou.model;
 
-import lombok.Getter;
-import lombok.Setter;
+
+import lombok.*;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
 import java.util.Date;
 import java.util.Objects;
 
+import static javax.persistence.GenerationType.IDENTITY;
+
 @Entity
 @Getter
 @Setter
-public class BannerItem extends BaseEntity {
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class UserCoupon {
     @Id
+    @GeneratedValue(strategy = IDENTITY)
     private Long id;
-    private String img;
-    private String keyword;
-    private short type;
-    private Long bannerId;
-    private String name;
+    private Long userId;
+    private Long couponId;
+    private Long orderId;
+    private Integer status;
+    private Date createTime;
 }

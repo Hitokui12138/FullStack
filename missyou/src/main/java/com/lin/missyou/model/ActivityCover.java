@@ -4,7 +4,7 @@
  * @开源项目 $ http://talelin.com
  * @免费专栏 $ http://course.talelin.com
  * @我的课程 $ http://imooc.com/t/4294850
- * @创建时间 2020-02-17 17:50
+ * @创建时间 2019-08-06 05:26
  */
 package com.lin.missyou.model;
 
@@ -18,17 +18,18 @@ import java.util.List;
 @Entity
 @Getter
 @Setter
-//where delete_time == null
-@Where(clause = "delete_time is null ")
-public class Banner extends BaseEntity {
+@Where(clause = "delete_time is null and online = 1")
+public class ActivityCover extends BaseEntity {
     @Id
     private Long id;
+    private String coverImg;
+    private String internalTopImg;
     private String name;
-    private String description;
     private String title;
-    private String img;
+    private String description;
+    private Boolean online;
 
     @OneToMany(fetch = FetchType.LAZY)
-    @JoinColumn(name="bannerId")
-    private List<BannerItem> items;
+    @JoinColumn(name="activityCoverId")
+    private  List<Activity> activityList;
 }

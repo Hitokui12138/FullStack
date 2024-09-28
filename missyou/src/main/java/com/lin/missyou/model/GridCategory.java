@@ -4,27 +4,27 @@
  * @开源项目 $ http://talelin.com
  * @免费专栏 $ http://course.talelin.com
  * @我的课程 $ http://imooc.com/t/4294850
- * @创建时间 2020-02-17 19:47
+ * @创建时间 2020-03-10 19:03
  */
 package com.lin.missyou.model;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.annotations.Where;
 
-import javax.persistence.*;
-import java.sql.Timestamp;
-import java.util.Date;
-import java.util.Objects;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
 @Getter
 @Setter
-public class BannerItem extends BaseEntity {
+@Where(clause = "delete_time is null")
+public class GridCategory extends BaseEntity{
     @Id
     private Long id;
+    private String title;
     private String img;
-    private String keyword;
-    private short type;
-    private Long bannerId;
     private String name;
+    private Long categoryId;
+    private Long rootCategoryId;
 }
