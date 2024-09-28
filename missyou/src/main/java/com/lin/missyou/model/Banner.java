@@ -21,13 +21,14 @@ import java.util.List;
 //where delete_time == null
 @Where(clause = "delete_time is null ")
 public class Banner extends BaseEntity {
-    @Id
-    private Long id;
+    @Id //1. 主键
+    private Long id;    //2. 数据库的int->java里的Long
+    //private Date createTime;  //3. 默认时TimeStamp,这里改成常用的Date
     private String name;
     private String description;
     private String title;
     private String img;
-
+    //4. 导航属性
     @OneToMany(fetch = FetchType.LAZY)
     @JoinColumn(name="bannerId")
     private List<BannerItem> items;

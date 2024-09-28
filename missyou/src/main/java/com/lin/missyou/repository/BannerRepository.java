@@ -1,6 +1,6 @@
 package com.lin.missyou.repository;
 
-import com.lin.missyou.model.Banner;
+import com.lin.missyou.model1.jpa.Banner;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

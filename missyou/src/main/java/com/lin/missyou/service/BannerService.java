@@ -1,7 +1,7 @@
 package com.lin.missyou.service;
 
 
-import com.lin.missyou.model.Banner;
+import com.lin.missyou.model1.jpa.Banner;
 
 /**
  *

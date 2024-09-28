@@ -1,6 +1,6 @@
 package com.lin.missyou.service;
 
-import com.lin.missyou.model.Banner;
+import com.lin.missyou.model1.jpa.Banner;
 import com.lin.missyou.repository.BannerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

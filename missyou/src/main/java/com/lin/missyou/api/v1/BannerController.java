@@ -2,7 +2,7 @@ package com.lin.missyou.api.v1;
 
 import com.lin.missyou.dto.PersonDTO;
 import com.lin.missyou.exception.http.ForbiddenException;
-import com.lin.missyou.model.Banner;
+import com.lin.missyou.model1.jpa.Banner;
 import com.lin.missyou.sample.IConnect;
 import com.lin.missyou.sample.ISkill;
 import com.lin.missyou.service.BannerServiceImpl;
