@@ -9,5 +9,5 @@ spring:
   jpa:
     properties:
       hibernate:
-        show_sql: true
+        show_sql: true #  显示SQL语句
         format_sql: true

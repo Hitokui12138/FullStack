@@ -17,8 +17,9 @@ public class Banner {
     //一组bannerItem,使用注解来使两个表产生联系
 
     //@OneToMany(fetch = FetchType.EAGER)
-    @OneToMany  //默认是懒加载
-    @JoinColumn(name = "bannerId")
+    @OneToMany(mappedBy = "banner")  //默认是懒加载
+    //@JoinColumn(name = "bannerId")
+    //@org.hibernate.annotations.ForeignKey(name = "null")
     private List<BannerItem> items;
 
     @Column(length = 16)//用的多,各种参数
